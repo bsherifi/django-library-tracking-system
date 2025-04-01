@@ -1,6 +1,5 @@
 import os
 from celery import Celery
-from django.core.mail import send_mail
 
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'library_system.settings')
